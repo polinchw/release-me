@@ -29,6 +29,10 @@
         <dockerfile.version>1.3.5</dockerfile.version>
     </properties>
 
+    <build>
+        <finalName>release-me</finalName>
+    </build>
+
     <distributionManagement>
         <repository>
             <id>nexus</id>
